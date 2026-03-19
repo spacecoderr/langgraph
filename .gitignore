@@ -1,0 +1,27 @@
+# --- Python / uv ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.uv/
+.python-version
+# If you use environments other than .venv
+venv/
+.env/
+
+# --- Java / Spring Boot / Maven ---
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/resources/archetype-resources/**
+!**/src/test/resources/archetype-resources/**
+
+# --- IDEs (IntelliJ, VS Code) ---
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# --- Secrets and Config ---
+.env
+*.local
+*.log
