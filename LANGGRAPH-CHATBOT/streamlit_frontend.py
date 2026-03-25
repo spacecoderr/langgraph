@@ -1,8 +1,8 @@
 import streamlit as st
-from langgraph_backend import chatbot
+from langgraph_backend_database import chatbot
 from langchain_core.messages import HumanMessage
-# st.session_state -> dict -> to store the state 
-CONFIG={'configurable':{'thread_id':'thread-1'}}
+# st.session_state -> dict -> to store the state
+CONFIG = {'configurable': {'thread_id': 'thread-1'}}
 
 #create a new pair in st.session state with key 'message_history' and value is empty list
 if 'message_history' not in st.session_state:
